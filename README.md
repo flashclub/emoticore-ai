@@ -62,10 +62,6 @@ EmotiCore AI's energy core changes colors based on emotional context:
 - ❤️ Red: Passion, excitement, intense emotions
 - ⚪ White: Pure, clarity, rational
 
-## 🌍 Internationalization
-
-Add or modify languages in `src/app/[locale]/indexConfig.js`.
-
 ## 💻 Development
 
 ### Local Development
@@ -108,7 +104,6 @@ Core dependencies:
 - Next.js 14
 - React 18
 - OpenAI API
-- next-intl
 - TailwindCSS
 
 ## 🔮 Future Plans
