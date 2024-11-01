@@ -1,20 +1,19 @@
 import React from "react";
-import { ChevronRight } from "lucide-react";
 
 const HeroSection = () => {
   const data = {
-    title: "Emotional AI",
+    title: "EmotiCore AI",
     description: "EmotiCore is a chatbot that can generate emotional responses",
   };
   const { title, description } = data;
   return (
-    <div className="relative pb-[200px]">
-      <div className="absolute inset-2 bottom-0 rounded-3xl overflow-hidden ring-1 ring-inset ring-black/5 bg-[linear-gradient(115deg,var(--tw-gradient-stops))] from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] sm:bg-[linear-gradient(145deg,var(--tw-gradient-stops))]" />
+    <div className="relative pb-[180px]">
+      <div className="absolute inset-2 top-0 bottom-0 rounded-3xl overflow-hidden ring-1 ring-inset ring-black/5 bg-[linear-gradient(115deg,var(--tw-gradient-stops))] from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] sm:bg-[linear-gradient(145deg,var(--tw-gradient-stops))]" />
 
       <div className="relative px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-7xl">
           {/* Hero Content */}
-          <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
+          <div className="pb-24 pt-16 sm:pb-32 sm:pt-20 md:pb-48 md:pt-28">
             <div className="grid grid-cols-1 gap-8 items-center">
               {/* Left Content */}
               <div className="relative z-10">

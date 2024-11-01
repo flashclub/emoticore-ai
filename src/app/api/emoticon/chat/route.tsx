@@ -3,10 +3,6 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 import { HttpsProxyAgent } from "https-proxy-agent";
 
-// 初始化 OpenAI 客户端
-
-// 情感映射表
-
 // 系统提示词
 const SYSTEM_PROMPT = `You are EmotiCore, an emotional AI robot with the following characteristics:
 1. You run on energy and emotions rather than traditional electricity

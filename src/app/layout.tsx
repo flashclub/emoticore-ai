@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import Script from "next/script";
-
-import { supportedLocales } from "@/languageConfig";
+import Layout from "@/components/Layout";
 import "@/app/[locale]/globals.css";
 
 const geistSans = localFont({
@@ -22,16 +21,13 @@ export const metadata = {
 
 export default async function RootLayout({
   children,
-  params: { locale = "en" },
 }: {
   children: React.ReactNode;
-  params: { locale: string };
 }) {
-  console.log("locale--", locale);
   const GOOGLE_ANALYTICS_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "";
 
   return (
-    <html lang={locale}>
+    <html lang="en">
       <head>
         <Script
           strategy="afterInteractive"
@@ -53,7 +49,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} `}>
-        {children}
+        <Layout>{children}</Layout>
       </body>
     </html>
   );

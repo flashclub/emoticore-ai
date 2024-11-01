@@ -1,12 +1,14 @@
-import FeatureSection from "@/components/FeatureSection";
 import Home from "@/components/Home";
+
+import { ThemeProvider } from "next-themes";
+import Layout from "@/components/Layout";
 export const generateMetadata = () => {
   return {
-    title: "Emotional AI",
+    title: "EmotiCore AI",
     description:
-      "Emotional AI is a chatbot that can generate emotional responses",
+      "EmotiCore AI is a chatbot that can generate emotional responses",
   };
 };
-export default function Index() {
+export default async function Index() {
   return <Home />;
 }

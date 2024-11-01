@@ -348,7 +348,9 @@ const EmotiCore = () => {
           )}
           <ReactMarkdown
             className={`${
-              msg.sender === "user" ? "bg-white rounded-lg p-4" : ""
+              msg.sender === "user"
+                ? "bg-white dark:bg-gray-800 rounded-lg p-4"
+                : "dark:text-black"
             }`}
           >
             {msg.text && formatMessageText(msg.text)}
@@ -383,17 +385,17 @@ const EmotiCore = () => {
   }, [isTyping]); // 当 isTyping 状态改变时重新设置焦点
 
   return (
-    <div className="flex flex-col h-screen bg-gray-200 p-4">
+    <div className="flex relative dark:bg-gray-800 pt-4 flex-col h-[calc(100vh-64px)] bg-gray-200 p-4">
       <EmotionIndicator />
       <div className="flex justify-center mb-6">
         <CoreDisplay />
       </div>
       {/* 对话区域 */}
       <ScrollArea
-        className="flex-1 mb-4 p-4 bg-gray-100 rounded-lg"
+        className="flex-1 mb-4 p-4 bg-gray-100 rounded-lg dark:bg-gray-700"
         ref={scrollAreaRef}
       >
-        <div className="space-y-4">
+        <div className="space-y-4 ">
           {messages.map((msg: any, index: number) => (
             <MessageDisplay key={index} msg={msg} />
           ))}

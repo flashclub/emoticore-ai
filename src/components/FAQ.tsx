@@ -18,13 +18,13 @@ const FAQSection = () => {
   const content = {
     title: "EmotiCore FAQ",
     subtitle:
-      "Everything you need to know about EmotiCore - Your Emotional AI Assistant",
+      "Everything you need to know about EmotiCore - Your EmotiCore AI Assistant",
     supportEmail: "laughingliangcl@gmail.com",
     faqs: [
       {
-        question: "What is EmotiCore and how does it work?",
+        question: "What is EmotiCore AI and how does it work?",
         answer:
-          "EmotiCore is an advanced emotional AI assistant that uses energy and emotions rather than traditional computing. It analyzes user messages in real-time, understanding emotional context and responding with appropriate emotional energy displayed through a dynamic color-changing core.",
+          "EmotiCore AI is an advanced emotional AI assistant that uses energy and emotions rather than traditional computing. It analyzes user messages in real-time, understanding emotional context and responding with appropriate emotional energy displayed through a dynamic color-changing core.",
       },
       {
         question: "What do the different colors mean in EmotiCore?",

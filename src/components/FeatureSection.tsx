@@ -1,6 +1,6 @@
 const FeatureSection = ({ className = "" }) => {
   const data = {
-    title: "Experience EmotiCore - The Emotional AI Assistant",
+    title: "Experience EmotiCore - The EmotiCore AI Assistant",
     description:
       "EmotiCore is an empathetic AI assistant that understands and responds to users' emotional states, creating an immersive conversational experience through unique visual feedback.",
     features: [
