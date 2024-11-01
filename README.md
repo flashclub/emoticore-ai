@@ -29,6 +29,12 @@ EmotiCore AI is a unique emotional intelligence assistant that can sense your em
 - 🌍 Multi-language support
 - 📱 Responsive design
 
+## 🎥 Demo Video
+
+Watch our demo video to see EmotiCore AI in action:
+
+[![EmotiCore AI Demo](https://img.youtube.com/vi/SAcWzmCCFhc/0.jpg)](https://www.youtube.com/watch?v=SAcWzmCCFhc)
+
 ## 🚀 Getting Started
 
 1. Install dependencies:
